@@ -1,0 +1,1075 @@
+[
+    {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-specialization/73?namespace=static-9.2.7_44981-us"
+          }
+        },
+        "id": 73,
+        "playable_class": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-9.2.7_44981-us"
+          },
+          "name": "Warrior",
+          "id": 1
+        },
+        "name": "Protection",
+        "gender_description": {
+          "male": "A stalwart protector who uses a shield to safeguard himself and his allies.\r\n\r\nPreferred Weapon: Axe, Mace, Sword, and Shield",
+          "female": "A stalwart protector who uses a shield to safeguard herself and her allies.\r\n\r\nPreferred Weapon: Axe, Mace, Sword, and Shield"
+        },
+        "media": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/playable-specialization/73?namespace=static-9.2.7_44981-us"
+          },
+          "id": 73
+        },
+        "role": {
+          "type": "TANK",
+          "name": "Tank"
+        },
+        "talent_tiers": [
+          {
+            "level": 15,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/15760?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "War Machine",
+                  "id": 15760
+                },
+                "spell_tooltip": {
+                  "description": "Your auto attacks generate 50% more Rage.\r\n\r\nKilling an enemy instantly generates 10 Rage, and increases your movement speed by 30% for 8 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/15759?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Punish",
+                  "id": 15759
+                },
+                "spell_tooltip": {
+                  "description": "Shield Slam deals 20% increased damage, and reduces enemies' damage against you by 3% for 9 sec. Multiple punishments may overlap.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/15774?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Devastator",
+                  "id": 15774
+                },
+                "spell_tooltip": {
+                  "description": "Your auto attacks deal an additional 241 Physical damage and have a 20% chance to reset the remaining cooldown on Shield Slam.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 0
+          },
+          {
+            "level": 25,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/19676?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Double Time",
+                  "id": 19676
+                },
+                "spell_tooltip": {
+                  "description": "Increases the maximum number of charges on Charge by 1, and reduces its cooldown by 3 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22629?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Rumbling Earth",
+                  "id": 22629
+                },
+                "spell_tooltip": {
+                  "description": "When Shockwave strikes at least 3 targets, its cooldown is reduced by 15 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22409?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Storm Bolt",
+                  "id": 22409
+                },
+                "spell_tooltip": {
+                  "description": "Hurls your weapon at an enemy, causing 179 Physical damage and stunning for 4 sec.",
+                  "cast_time": "Instant",
+                  "range": "20 yd range",
+                  "cooldown": "30 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 1
+          },
+          {
+            "level": 30,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22378?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Best Served Cold",
+                  "id": 22378
+                },
+                "spell_tooltip": {
+                  "description": "Revenge deals 20% more damage, or 50% more damage when your successful dodges or parries have made it cost no Rage.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22626?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Booming Voice",
+                  "id": 22626
+                },
+                "spell_tooltip": {
+                  "description": "Demoralizing Shout also generates 40 Rage, and increases damage you deal to affected targets by 20%.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23260?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Dragon Roar",
+                  "id": 23260
+                },
+                "spell_tooltip": {
+                  "description": "Roar explosively, dealing 1,836 Physical damage to enemies within 12 yds. Deals reduced damage to secondary targets. Dragon Roar critically strikes for 3 times normal damage.\r\n\r\nGenerates 20 Rage.",
+                  "cast_time": "Instant",
+                  "cooldown": "30 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 2
+          },
+          {
+            "level": 35,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23096?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Crackling Thunder",
+                  "id": 23096
+                },
+                "spell_tooltip": {
+                  "description": "Thunder Clap's radius is increased by 50%, and it reduces movement speed by an additional 10%.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22627?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Bounding Stride",
+                  "id": 22627
+                },
+                "spell_tooltip": {
+                  "description": "Reduces the cooldown on Heroic Leap by 15 sec, and Heroic Leap now also increases your run speed by 70% for 3 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22488?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Menace",
+                  "id": 22488
+                },
+                "spell_tooltip": {
+                  "description": "Intimidating Shout will knock back all nearby enemies except your primary target, and cause them all to cower in fear for 15 sec instead of fleeing.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 3
+          },
+          {
+            "level": 40,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22384?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Never Surrender",
+                  "id": 22384
+                },
+                "spell_tooltip": {
+                  "description": "Ignore Pain prevents 40% to 100% more damage, based on your missing health.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22631?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Indomitable",
+                  "id": 22631
+                },
+                "spell_tooltip": {
+                  "description": "Your maximum health is increased by 10%, and every 10 Rage you spend heals you for 1% of your maximum health.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22800?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Impending Victory",
+                  "id": 22800
+                },
+                "spell_tooltip": {
+                  "description": "Instantly attack the target, causing 545 damage and healing you for 40% of your maximum health.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+                  "cast_time": "Instant",
+                  "power_cost": "10 Rage",
+                  "range": "Melee Range",
+                  "cooldown": "25 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 4
+          },
+          {
+            "level": 45,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22395?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Into the Fray",
+                  "id": 22395
+                },
+                "spell_tooltip": {
+                  "description": "You gain 2% Haste for each enemy or ally within 10 yards, up to 10% Haste.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22544?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Unstoppable Force",
+                  "id": 22544
+                },
+                "spell_tooltip": {
+                  "description": "Avatar increases the damage of Thunder Clap by 30%, and reduces its cooldown by 50%.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22401?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Ravager",
+                  "id": 22401
+                },
+                "spell_tooltip": {
+                  "description": "Throws a whirling weapon at the target location that chases nearby enemies, inflicting 2,734 Physical damage to all enemies over 11.1 sec. Deals reduced damage beyond 8 targets.\r\n\r\nGenerates 10 Rage each time it deals damage.",
+                  "cast_time": "Instant",
+                  "range": "40 yd range",
+                  "cooldown": "45 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 5
+          },
+          {
+            "level": 50,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23455?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Anger Management",
+                  "id": 23455
+                },
+                "spell_tooltip": {
+                  "description": "Every 10 Rage you spend reduces the remaining cooldown on Avatar and Shield Wall by 1 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22406?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Heavy Repercussions",
+                  "id": 22406
+                },
+                "spell_tooltip": {
+                  "description": "Shield Slam generates 3 more Rage and extends the duration of Shield Block by 1.0 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23099?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Bolster",
+                  "id": 23099
+                },
+                "spell_tooltip": {
+                  "description": "Last Stand's cooldown is reduced by 1 min, and it grants you the Shield Block effect for its duration.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 6
+          }
+        ],
+        "pvp_talents": [
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/24?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Disarm",
+              "id": 24
+            },
+            "spell_tooltip": {
+              "description": "Disarm the enemy's weapons and shield for 6 sec. Disarmed creatures deal significantly reduced damage.",
+              "cast_time": "Instant",
+              "range": "Melee Range",
+              "cooldown": "45 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/167?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Sword and Board",
+              "id": 167
+            },
+            "spell_tooltip": {
+              "description": "Increases the critical strike chance of your Devastate and Shield Slam by 30% while Shield Block is active.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/168?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Bodyguard",
+              "id": 168
+            },
+            "spell_tooltip": {
+              "description": "Protect an ally, causing 40% of all Physical damage they take to be transfered to you. When the target takes Physical damage, your Shield Slam cooldown has a 30% chance to be reset. Bodyguard is cancelled if the target is further than 15 yards from you. Lasts 1 min.\r\n\r\nOnly one target can be Bodyguarded at a time.",
+              "cast_time": "Instant",
+              "range": "10 yd range",
+              "cooldown": "15 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/171?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Morale Killer",
+              "id": 171
+            },
+            "spell_tooltip": {
+              "description": "Reduces the cooldown of Demoralizing Shout by 15 sec, and Demoralizing Shout now reduces the damage enemies deal to all targets, not just you.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/173?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Shield Bash",
+              "id": 173
+            },
+            "spell_tooltip": {
+              "description": "Bash the target with your shield dealing 870.8 Physical damage and reducing their damage done by 15%. If the target is casting, the cooldown is instantly reset.\r\n\r\nGenerates 3 Rage.",
+              "cast_time": "Instant",
+              "range": "Melee Range",
+              "cooldown": "10 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/175?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Thunderstruck",
+              "id": 175
+            },
+            "spell_tooltip": {
+              "description": "Thunder Clap roots all targets for 1 sec.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/178?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Warpath",
+              "id": 178
+            },
+            "spell_tooltip": {
+              "description": "When landing with Heroic Leap, all targets are stunned for 3 sec.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/831?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Dragon Charge",
+              "id": 831
+            },
+            "spell_tooltip": {
+              "description": "Run at high speed at a distance in front of you. All enemies in your path will take 758 Physical damage and be knocked back.",
+              "cast_time": "Instant",
+              "cooldown": "20 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/833?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Rebound",
+              "id": 833
+            },
+            "spell_tooltip": {
+              "description": "Reflecting spells causes them to deal 33% extra damage back to the attacker.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/845?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Oppressor",
+              "id": 845
+            },
+            "spell_tooltip": {
+              "description": "You focus the assault on this target, increasing their damage taken by 3% for 6 sec.  Each unique player that attacks the target increases the damage taken by an additional 3%, stacking up to 5 times.\r\n\r\nYour melee attacks refresh the duration of Focused Assault.",
+              "cast_time": "Instant",
+              "range": "10 yd range",
+              "cooldown": "20 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/5374?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Demolition",
+              "id": 5374
+            },
+            "spell_tooltip": {
+              "description": "Reduces the cooldown of your Shattering Throw by 2 min and increases its damage to absorb shields by an additional 500%.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/5432?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Warbringer",
+              "id": 5432
+            },
+            "spell_tooltip": {
+              "description": "Charge roots enemies for 2 sec and emanates a shockwave past the target, rooting enemies and dealing 1,570 Physical damage in a 15 yd cone.",
+              "cast_time": "Passive"
+            }
+          }
+        ]
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-specialization/72?namespace=static-9.2.7_44981-us"
+          }
+        },
+        "id": 72,
+        "playable_class": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-9.2.7_44981-us"
+          },
+          "name": "Warrior",
+          "id": 1
+        },
+        "name": "Fury",
+        "gender_description": {
+          "male": "A furious berserker unleashing a flurry of attacks to carve his opponents to pieces.\r\n\r\nPreferred Weapons: Dual Axes, Maces, Swords",
+          "female": "A furious berserker unleashing a flurry of attacks to carve her opponents to pieces.\r\n\r\nPreferred Weapons: Dual Axes, Maces, Swords"
+        },
+        "media": {
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/playable-specialization/72?namespace=static-9.2.7_44981-us"
+          },
+          "id": 72
+        },
+        "role": {
+          "type": "DAMAGE",
+          "name": "Damage"
+        },
+        "talent_tiers": [
+          {
+            "level": 15,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22632?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "War Machine",
+                  "id": 22632
+                },
+                "spell_tooltip": {
+                  "description": "Your auto attacks generate 20% more Rage.\r\n\r\nKilling an enemy instantly generates 10 Rage, and increases your movement speed by 30% for 8 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22633?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Sudden Death",
+                  "id": 22633
+                },
+                "spell_tooltip": {
+                  "description": "Your attacks have a chance to reset the cooldown of Execute and make it usable on any target, regardless of their health.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22491?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Fresh Meat",
+                  "id": 22491
+                },
+                "spell_tooltip": {
+                  "description": "Bloodthirst always Enrages you the first time you strike a target, and it has a 15% increased chance to trigger Enrage.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 0
+          },
+          {
+            "level": 25,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/19676?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Double Time",
+                  "id": 19676
+                },
+                "spell_tooltip": {
+                  "description": "Increases the maximum number of charges on Charge by 1, and reduces its cooldown by 3 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22625?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Impending Victory",
+                  "id": 22625
+                },
+                "spell_tooltip": {
+                  "description": "Instantly attack the target, causing 699 damage and healing you for 40% of your maximum health.\r\n\r\nKilling an enemy that yields experience or honor resets the cooldown of Impending Victory and makes it cost no Rage.",
+                  "cast_time": "Instant",
+                  "power_cost": "10 Rage",
+                  "range": "Melee Range",
+                  "cooldown": "25 sec cooldown"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23093?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Storm Bolt",
+                  "id": 23093
+                },
+                "spell_tooltip": {
+                  "description": "Hurls your weapon at an enemy, causing 228 Physical damage and stunning for 4 sec.",
+                  "cast_time": "Instant",
+                  "range": "20 yd range",
+                  "cooldown": "30 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 1
+          },
+          {
+            "level": 30,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22379?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Massacre",
+                  "id": 22379
+                },
+                "spell_tooltip": {
+                  "description": "Execute is now usable on targets below 35% health, and its cooldown is reduced by 1.5 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22381?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Frenzy",
+                  "id": 22381
+                },
+                "spell_tooltip": {
+                  "description": "Rampage increases your Haste by 2% for 12 sec, stacking up to 4 times. This effect is reset if you Rampage a different primary target.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23372?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Onslaught",
+                  "id": 23372
+                },
+                "spell_tooltip": {
+                  "description": "Brutally attack an enemy for 1,855 Physical damage. Requires Enrage.\r\n\r\nGenerates 15 Rage.",
+                  "cast_time": "Instant",
+                  "range": "Melee Range",
+                  "cooldown": "12 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 2
+          },
+          {
+            "level": 35,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/23097?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Furious Charge",
+                  "id": 23097
+                },
+                "spell_tooltip": {
+                  "description": "Charge also increases the healing from your next Bloodthirst by 250%.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22627?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Bounding Stride",
+                  "id": 22627
+                },
+                "spell_tooltip": {
+                  "description": "Reduces the cooldown on Heroic Leap by 15 sec, and Heroic Leap now also increases your run speed by 70% for 3 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22382?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Warpaint",
+                  "id": 22382
+                },
+                "spell_tooltip": {
+                  "description": "You take 10% reduced damage while Enrage is active.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 3
+          },
+          {
+            "level": 40,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22383?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Seethe",
+                  "id": 22383
+                },
+                "spell_tooltip": {
+                  "description": "Bloodthirst generates 2 more Rage, or 4 more Rage when it critically strikes your primary target.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22393?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Frothing Berserker",
+                  "id": 22393
+                },
+                "spell_tooltip": {
+                  "description": "Rampage has a 20% chance to immediately refund 20 Rage.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/19140?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Cruelty",
+                  "id": 19140
+                },
+                "spell_tooltip": {
+                  "description": "While Enraged, Raging Blow deals 20% more damage and has a 30% chance to instantly reset its own cooldown.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 4
+          },
+          {
+            "level": 45,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22396?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Meat Cleaver",
+                  "id": 22396
+                },
+                "spell_tooltip": {
+                  "description": "Whirlwind deals 25% more damage and now affects your next 4 single-target melee attacks, instead of the next 2 attacks.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22398?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Dragon Roar",
+                  "id": 22398
+                },
+                "spell_tooltip": {
+                  "description": "Roar explosively, dealing 2,233 Physical damage to enemies within 12 yds. Deals reduced damage to secondary targets. Dragon Roar critically strikes for 3 times normal damage.\r\n\r\nGenerates 10 Rage.",
+                  "cast_time": "Instant",
+                  "cooldown": "30 sec cooldown"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22400?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Bladestorm",
+                  "id": 22400
+                },
+                "spell_tooltip": {
+                  "description": "Become an unstoppable storm of destructive force, striking all nearby enemies for 5,998 Physical damage over 3.7 sec. Deals reduced damage beyond 8 targets.\r\n\r\nYou are immune to movement impairing and loss of control effects, but can use defensive abilities and avoid attacks.\r\n\r\nGenerates 25 Rage over the duration.",
+                  "cast_time": "Instant",
+                  "cooldown": "1 min cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 5
+          },
+          {
+            "level": 50,
+            "talents": [
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22405?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Anger Management",
+                  "id": 22405
+                },
+                "spell_tooltip": {
+                  "description": "Every 20 Rage you spend reduces the remaining cooldown on Recklessness by 1 sec.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 0
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/22402?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Reckless Abandon",
+                  "id": 22402
+                },
+                "spell_tooltip": {
+                  "description": "Recklessness generates 50 Rage and greatly empowers Bloodthirst and Raging Blow.",
+                  "cast_time": "Passive"
+                },
+                "column_index": 1
+              },
+              {
+                "talent": {
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/talent/16037?namespace=static-9.2.7_44981-us"
+                  },
+                  "name": "Siegebreaker",
+                  "id": 16037
+                },
+                "spell_tooltip": {
+                  "description": "Break the enemy's defenses, dealing 1,121 Physical damage, and increasing your damage done to the target by 15% for 10 sec.\r\n\r\nGenerates 10 Rage.",
+                  "cast_time": "Instant",
+                  "range": "Melee Range",
+                  "cooldown": "30 sec cooldown"
+                },
+                "column_index": 2
+              }
+            ],
+            "tier_index": 6
+          }
+        ],
+        "pvp_talents": [
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/25?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Death Sentence",
+              "id": 25
+            },
+            "spell_tooltip": {
+              "description": "Execute charges you to targets up to 15 yards away.  This effect has a 6 sec cooldown.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/166?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Barbarian",
+              "id": 166
+            },
+            "spell_tooltip": {
+              "description": "For 3 sec after casting Heroic Leap, you may cast the spell a second time without regard for its cooldown.\r\n\r\nIncreases the damage done by your Heroic Leap by 200%.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/170?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Battle Trance",
+              "id": 170
+            },
+            "spell_tooltip": {
+              "description": "You go into a trance causing you to regenerate 3% of your health and generate 3 Rage every 3 sec for 18 sec after using Raging Blow twice in a row on a target.\r\n\r\nUsing Raging Blow on a new target will cancel this effect.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/172?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Bloodrage",
+              "id": 172
+            },
+            "spell_tooltip": {
+              "description": "You gain 40 Rage over 4 sec, and all snares and roots are cleared from you, but at a cost of 5% of your health.",
+              "cast_time": "Instant",
+              "power_cost": null,
+              "cooldown": "20 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/177?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Enduring Rage",
+              "id": 177
+            },
+            "spell_tooltip": {
+              "description": "Increases the duration of your Enrage effect by 1 sec, and your Raging Blows extend the duration of your Enrage by 1.5 sec.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/179?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Death Wish",
+              "id": 179
+            },
+            "spell_tooltip": {
+              "description": "Increases your damage taken and done by 5% for 15 sec at the cost of 5% of your health. Stacks up to 10 times.",
+              "cast_time": "Instant",
+              "power_cost": null,
+              "cooldown": "5 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/3528?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Master and Commander",
+              "id": 3528
+            },
+            "spell_tooltip": {
+              "description": "Cooldown of Rallying Cry reduced by 1 min, and grants 15% additional health.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/3533?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Disarm",
+              "id": 3533
+            },
+            "spell_tooltip": {
+              "description": "Disarm the enemy's weapons and shield for 6 sec. Disarmed creatures deal significantly reduced damage.",
+              "cast_time": "Instant",
+              "range": "Melee Range",
+              "cooldown": "45 sec cooldown"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/3735?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Slaughterhouse",
+              "id": 3735
+            },
+            "spell_tooltip": {
+              "description": "Rampage damage reduces healing the target receives by 5% for 6 sec, stacking up to 8 times.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/5373?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Demolition",
+              "id": 5373
+            },
+            "spell_tooltip": {
+              "description": "Reduces the cooldown of your Shattering Throw by 2 min and increases its damage to absorb shields by an additional 500%.",
+              "cast_time": "Passive"
+            }
+          },
+          {
+            "talent": {
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/pvp-talent/5431?namespace=static-9.2.7_44981-us"
+              },
+              "name": "Warbringer",
+              "id": 5431
+            },
+            "spell_tooltip": {
+              "description": "Charge roots enemies for 2 sec and emanates a shockwave past the target, rooting enemies and dealing 2,039 Physical damage in a 15 yd cone.",
+              "cast_time": "Passive"
+            }
+          }
+        ]
+      }
+]

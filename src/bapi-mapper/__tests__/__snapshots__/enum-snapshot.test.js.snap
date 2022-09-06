@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformers mapApiToRaces 1`] = `
+[
+  {
+    "faction": 0,
+    "id": 26,
+    "isAllied": false,
+    "name": "Pandaren",
+  },
+  {
+    "faction": 1,
+    "id": 25,
+    "isAllied": false,
+    "name": "Pandaren",
+  },
+  {
+    "faction": 2,
+    "id": 24,
+    "isAllied": false,
+    "name": "Pandaren",
+  },
+]
+`;
+
+exports[`transformers mapApiToSpecs 1`] = `
+[
+  {
+    "class": 1,
+    "id": 73,
+    "name": "Protection",
+    "role": 1,
+  },
+  {
+    "class": 1,
+    "id": 72,
+    "name": "Fury",
+    "role": 3,
+  },
+]
+`;

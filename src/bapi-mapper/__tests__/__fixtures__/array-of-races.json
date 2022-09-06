@@ -1,0 +1,59 @@
+[
+    {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-race/26?namespace=static-9.2.7_44981-us"
+          }
+        },
+        "id": 26,
+        "name": "Pandaren",
+        "gender_name": {
+          "male": "Pandaren",
+          "female": "Pandaren"
+        },
+        "faction": {
+          "type": "HORDE",
+          "name": "Horde"
+        },
+        "is_selectable": false,
+        "is_allied_race": false
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-race/25?namespace=static-9.2.7_44981-us"
+          }
+        },
+        "id": 25,
+        "name": "Pandaren",
+        "gender_name": {
+          "male": "Pandaren",
+          "female": "Pandaren"
+        },
+        "faction": {
+          "type": "ALLIANCE",
+          "name": "Alliance"
+        },
+        "is_selectable": false,
+        "is_allied_race": false
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-race/24?namespace=static-9.2.7_44981-us"
+          }
+        },
+        "id": 24,
+        "name": "Pandaren",
+        "gender_name": {
+          "male": "Pandaren",
+          "female": "Pandaren"
+        },
+        "faction": {
+          "type": "NEUTRAL",
+          "name": "Neutral"
+        },
+        "is_selectable": true,
+        "is_allied_race": false
+      }
+]

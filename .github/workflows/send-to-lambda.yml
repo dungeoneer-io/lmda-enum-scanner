@@ -1,0 +1,37 @@
+name: Send to Lambda
+
+on:
+  push:
+    branches:
+      - main
+
+jobs: 
+  lmbda: 
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - name: "Use Node 15"
+        uses: actions/setup-node@v2
+        with: 
+          node-version: 15.x
+      - name: "npm i"
+        run: "npm install --only=prod"
+      - name: "Dial-in to AWS"
+        uses: aws-actions/configure-aws-credentials@v1
+        with: 
+          aws-access-key-id: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+          aws-region: us-east-1
+          aws-secret-access-key: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+          role-duration-seconds: 1200
+          role-session-name: github-action-lmda-enum-scanner
+      - name: "ncc build"
+        run: "npm run build"
+      - name: "zip it"
+        run: "cd dist && zip lambda.zip ./index.js"
+      - name: "AWS Deploy"
+        run: "aws lambda update-function-code --function-name lmda-enum-scanner --zip-file fileb://dist/lambda.zip"
+      - name: "Send Notification"
+        uses: dungeoneer-io/sc-discord-notification-action@v1.3
+        with:
+          webhook: "${{ secrets.DISCORD_NOTIFICATION_WEBHOOK }}"
+          message: ":rocket: **dungeoneer-io/lmda-enum-scanner** lambda deployed\n```\n${{ github.event.head_commit.message }}\n```\n\n"
